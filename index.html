@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дипломка</title>
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            font-size: 36px;
+            margin-top: 100px;
+        }
+        .chicken {
+            width: 200px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Дипломка</h1>
+    <a href="#" onclick="showMessage()">Нажмите здесь</a> 
+    <div id="message" style="display: none;">
+        <p>тут нет дипломки,просто хочу сказать вам спасибо за знание</p>
+        <img src="./istockphoto-466167557-612x612.jpg" alt="я в лучшие года" class="chicken">
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
